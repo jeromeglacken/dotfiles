@@ -1,0 +1,20 @@
+# Bash Exports
+
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+
+# Make vim the default editor
+export EDITOR="vim"
+
+# Larger bash history (allow 32³ entries; default is 500)
+export HISTSIZE=32768
+export HISTFILESIZE=$HISTSIZE
+export HISTCONTROL=ignoredups
+
+# Timestamps for bash history (www.debian-administration.org/users/rossen/weblog/1)
+# saved for later analysis
+HISTTIMEFORMAT='%F %T '
+export HISTTIMEFORMAT
+
+# Set Grep Color Option
+export GREP_OPTIONS="--color=auto"
+
